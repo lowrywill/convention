@@ -1,0 +1,3 @@
+<?php
+$loneliness="auteur";
+?>
