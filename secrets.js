@@ -14,5 +14,5 @@ function hex_to_ascii(str1)
 	}
 	return str;
  }
-console.log(hex_to_ascii('6c 6f 6e 65 6c 69 6e 65 73 73'));
+console.log(hex_to_ascii('6c6f6e656c696e657373'));
 console.log(hex_to_ascii('6c'));
