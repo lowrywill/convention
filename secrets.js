@@ -1,9 +1,10 @@
 'use strict';
 
 // Look, if you're going to this much trouble, why not just try to solve the puzzle as is?
-const loneliness = "auteur";
+const loneliness = "6c6f6e656c696e657373";
 
 console.log(loneliness);
+console.log(hex_to_ascii(loneliness));
 
 function hex_to_ascii(str1)
  {
@@ -14,5 +15,3 @@ function hex_to_ascii(str1)
 	}
 	return str;
  }
-console.log(hex_to_ascii('6c6f6e656c696e657373'));
-console.log(hex_to_ascii('6c'));
