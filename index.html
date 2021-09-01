@@ -1,13 +1,26 @@
 <html>
-<head></head>
+<head>
+<link rel="stylesheet" href="styles.css">
+
+</head>
 <body>
-<div>Well it seems you found something bold. That's interesting.</div>
-<p><div><i>And no, this is not required for a grade. Just an experiment in something of possible interest.</i></div></p>
+
+<div>Well it seems you found something <b>bold</b>. That's interesting.</div>
+<hr>
 <p><div>Seems like there's something associated with <i>Loneliness Was a Pandemic</I> but it's hard to put my finger on it. If you find and solve, write it down for later...</div></p>
 
-<div class="entry-line">
-  <p class="play-title">Loneliness: </p><form class="play-input loneliness"><input type="text" placeholder="enter secret word" class="input-loneliness"/>
+<div class="play">
+  <p class="play-title">Loneliness:</p> 
+  <form class="input-form"><input type="text" placeholder="enter secret word" class="input-loneliness"/>
+    <button class="button-loneliness">Check Your Answer
+    </button>
+  </form>
+
+  <p class="correct-loneliness">That's the correct answer! Note it somewhere for later...</p>
+  <p class="incorrect-loneliness">Unfortunately that's not correct.</p>
 </div>
+
+<div class="note">And no, this is not required for a grade. Just an experiment in something of possible intrigue and interest.</div>
 
 <script src="secrets.js"></script>
 </body>

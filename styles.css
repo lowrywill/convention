@@ -1,0 +1,33 @@
+.play {
+    background-color: #ddffff;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #aaffff;
+}
+
+.note {
+    padding-top: 30px;
+    font-style: italic;
+    font-size: 80%;
+}
+
+.play-title {
+    font-weight: bold;
+    font-size: 120%;
+    padding-left: 15px;
+}
+
+.input-form {
+    padding-left: 20px;
+}
+
+
+.correct-loneliness {
+    display: none;
+    padding-left: 20px;
+}
+
+.incorrect-loneliness {
+    display: none;
+    padding-left: 20px;
+}

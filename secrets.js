@@ -1,10 +1,27 @@
 'use strict';
 
-// Look, if you're going to this much trouble, why not just try to solve the puzzle as is?
+// Look, if you're going to this much trouble as to look here, sure, that's clever, but why not just try to solve the puzzle as is?
 const loneliness = "617574657572";
 
-console.log(loneliness);
-console.log(hex_to_ascii(loneliness));
+const inputLoneliness = document.querySelector('.input-loneliness');
+const buttonLoneliness = document.querySelector('.button-loneliness');
+const correctLoneliness = document.querySelector('.correct-loneliness');
+const incorrectLoneliness = document.querySelector('.incorrect-loneliness');
+
+
+console.log(hex_to_ascii(loneliness).toLowerCase());
+
+buttonLoneliness.addEventListener('click', function (e) {
+	e.preventDefault()
+	if (inputLoneliness.value.toLowerCase() == hex_to_ascii(loneliness)) {
+		incorrectLoneliness.style.display = "none";
+		correctLoneliness.style.display = "block";
+	} else {
+		correctLoneliness.style.display = "none";
+		incorrectLoneliness.style.display = "block";
+	}
+});
+
 
 function hex_to_ascii(str1)
  {
@@ -15,3 +32,6 @@ function hex_to_ascii(str1)
 	}
 	return str;
  }
+
+
+ 
