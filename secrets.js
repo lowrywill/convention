@@ -8,9 +8,6 @@ const buttonLoneliness = document.querySelector('.button-loneliness');
 const correctLoneliness = document.querySelector('.correct-loneliness');
 const incorrectLoneliness = document.querySelector('.incorrect-loneliness');
 
-
-console.log(hex_to_ascii(loneliness).toLowerCase());
-
 buttonLoneliness.addEventListener('click', function (e) {
 	e.preventDefault()
 	if (inputLoneliness.value.toLowerCase() == hex_to_ascii(loneliness)) {
