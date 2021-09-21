@@ -54,3 +54,13 @@
   display: none;
   padding-left: 20px;
 }
+
+.correct-nether {
+  display: none;
+  padding-left: 20px;
+}
+
+.incorrect-nether {
+  display: none;
+  padding-left: 20px;
+}
