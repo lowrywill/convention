@@ -12,6 +12,13 @@
   border: 1px solid #ffaaff;
 }
 
+.nether-section {
+  background-color: #ffffdd;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #ffffaa;
+}
+
 .note {
   padding-top: 30px;
   font-style: italic;
