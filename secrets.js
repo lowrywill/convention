@@ -3,6 +3,7 @@
 // Look, if you're going to this much trouble as to look here, sure, that's clever, but why not just try to solve the puzzle as is?
 const codeLoneliness = "617574657572";
 const codeMarvel = "796F757468";
+const codeNether = "61636f726e";
 
 const inputLoneliness = document.querySelector(".input-loneliness");
 const buttonLoneliness = document.querySelector(".button-loneliness");
@@ -12,6 +13,10 @@ const inputMarvel = document.querySelector(".input-marvel");
 const buttonMarvel = document.querySelector(".button-marvel");
 const correctMarvel = document.querySelector(".correct-marvel");
 const incorrectMarvel = document.querySelector(".incorrect-marvel");
+const inputNether = document.querySelector(".input-nether");
+const buttonNether = document.querySelector(".button-nether");
+const correctNether = document.querySelector(".correct-nether");
+const incorrectNether = document.querySelector(".incorrect-nether");
 
 buttonLoneliness.addEventListener("click", function (e) {
   e.preventDefault();
@@ -32,6 +37,17 @@ buttonMarvel.addEventListener("click", function (e) {
   } else {
     correctMarvel.style.display = "none";
     incorrectMarvel.style.display = "block";
+  }
+});
+
+buttonNether.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (inputNether.value.toLowerCase() == hex_to_ascii(codeNether)) {
+    incorrectNether.style.display = "none";
+    correctNether.style.display = "block";
+  } else {
+    correctNether.style.display = "none";
+    incorrectNether.style.display = "block";
   }
 });
 
