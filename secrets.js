@@ -4,6 +4,11 @@
 const codeLoneliness = "617574657572";
 const codeMarvel = "796F757468";
 const codeNether = "61636f726e";
+const codeRUR = "647265616d";
+const codeBSHMM = "73757065722d6d6f74686572";
+const codeDeinde = "6e6575726f657468696373";
+const codeDogact = "73746f7279";
+const codeFeathers = "6361727665";
 
 const inputLoneliness = document.querySelector(".input-loneliness");
 const buttonLoneliness = document.querySelector(".button-loneliness");
@@ -17,6 +22,26 @@ const inputNether = document.querySelector(".input-nether");
 const buttonNether = document.querySelector(".button-nether");
 const correctNether = document.querySelector(".correct-nether");
 const incorrectNether = document.querySelector(".incorrect-nether");
+const inputRUR = document.querySelector(".input-rur");
+const buttonRUR = document.querySelector(".button-rur");
+const correctRUR = document.querySelector(".correct-rur");
+const incorrectRUR = document.querySelector(".incorrect-rur");
+const inputBSHMM = document.querySelector(".input-bshmm");
+const buttonBSHMM = document.querySelector(".button-bshmm");
+const correctBSHMM = document.querySelector(".correct-bshmm");
+const incorrectBSHMM = document.querySelector(".incorrect-bshmm");
+const inputDeinde = document.querySelector(".input-deinde");
+const buttonDeinde = document.querySelector(".button-deinde");
+const correctDeinde = document.querySelector(".correct-deinde");
+const incorrectDeinde = document.querySelector(".incorrect-deinde");
+const inputDogact = document.querySelector(".input-dogact");
+const buttonDogact = document.querySelector(".button-dogact");
+const correctDogact = document.querySelector(".correct-dogact");
+const incorrectDogact = document.querySelector(".incorrect-dogact");
+const inputFeathers = document.querySelector(".input-feathers");
+const buttonFeathers = document.querySelector(".button-feathers");
+const correctFeathers = document.querySelector(".correct-feathers");
+const incorrectFeathers = document.querySelector(".incorrect-feathers");
 
 buttonLoneliness.addEventListener("click", function (e) {
   e.preventDefault();
@@ -48,6 +73,61 @@ buttonNether.addEventListener("click", function (e) {
   } else {
     correctNether.style.display = "none";
     incorrectNether.style.display = "block";
+  }
+});
+
+buttonRUR.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (inputRUR.value.toLowerCase() == hex_to_ascii(codeRUR)) {
+    incorrectRUR.style.display = "none";
+    correctRUR.style.display = "block";
+  } else {
+    correctRUR.style.display = "none";
+    incorrectRUR.style.display = "block";
+  }
+});
+
+buttonBSHMM.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (inputBSHMM.value.toLowerCase() == hex_to_ascii(codeBSHMM)) {
+    incorrectBSHMM.style.display = "none";
+    correctBSHMM.style.display = "block";
+  } else {
+    correctBSHMM.style.display = "none";
+    incorrectBSHMM.style.display = "block";
+  }
+});
+
+buttonDeinde.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (inputDeinde.value.toLowerCase() == hex_to_ascii(codeDeinde)) {
+    incorrectDeinde.style.display = "none";
+    correctDeinde.style.display = "block";
+  } else {
+    correctDeinde.style.display = "none";
+    incorrectDeinde.style.display = "block";
+  }
+});
+
+buttonDogact.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (inputDogact.value.toLowerCase() == hex_to_ascii(codeDogact)) {
+    incorrectDogact.style.display = "none";
+    correctDogact.style.display = "block";
+  } else {
+    correctDogact.style.display = "none";
+    incorrectDogact.style.display = "block";
+  }
+});
+
+buttonFeathers.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (inputFeathers.value.toLowerCase() == hex_to_ascii(codeFeathers)) {
+    incorrectFeathers.style.display = "none";
+    correctFeathers.style.display = "block";
+  } else {
+    correctFeathers.style.display = "none";
+    incorrectFeathers.style.display = "block";
   }
 });
 

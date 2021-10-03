@@ -19,6 +19,41 @@
   border: 1px solid #ffffaa;
 }
 
+.rur-section {
+  background-color: #ddddff;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #aaaaff;
+}
+
+.bshmm-section {
+  background-color: #ddffdd;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #aaffaa;
+}
+
+.deinde-section {
+  background-color: #ffdddd;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #ffaaaa;
+}
+
+.dogact-section {
+  background-color: #dddddd;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #aaaaaa;
+}
+
+.feathers-section {
+  background-color: #dfddfd;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #afaafa;
+}
+
 .note {
   padding-top: 30px;
   font-style: italic;
@@ -61,6 +96,56 @@
 }
 
 .incorrect-nether {
+  display: none;
+  padding-left: 20px;
+}
+
+.correct-rur {
+  display: none;
+  padding-left: 20px;
+}
+
+.incorrect-rur {
+  display: none;
+  padding-left: 20px;
+}
+
+.correct-bshmm {
+  display: none;
+  padding-left: 20px;
+}
+
+.incorrect-bshmm {
+  display: none;
+  padding-left: 20px;
+}
+
+.correct-deinde {
+  display: none;
+  padding-left: 20px;
+}
+
+.incorrect-deinde {
+  display: none;
+  padding-left: 20px;
+}
+
+.correct-dogact {
+  display: none;
+  padding-left: 20px;
+}
+
+.incorrect-dogact {
+  display: none;
+  padding-left: 20px;
+}
+
+.correct-feathers {
+  display: none;
+  padding-left: 20px;
+}
+
+.incorrect-feathers {
   display: none;
   padding-left: 20px;
 }
