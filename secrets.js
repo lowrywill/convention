@@ -6,7 +6,7 @@ const codeMarvel = "796F757468";
 const codeNether = "61636f726e";
 const codeRUR = "647265616d";
 const codeBSHMM = "73757065726865726f6573";
-const codeDeinde = "6e6575726f657468696373";
+const codeDeinde = "696e746572666163696e67";
 const codeDogact = "73746f7279";
 const codeFeathers = "6361727665";
 
