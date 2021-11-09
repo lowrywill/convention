@@ -9,7 +9,7 @@ const codeBSHMM = "73757065726865726f6573";
 const codeDeinde = "696e746572666163696e67";
 const codeDogact = "73746f7279";
 const codeFeathers = "6361727665";
-const codeMeta = "594f55525455524e544f435245415445";
+const codeMeta = "796f75727475726e746f637265617465";
 
 const inputLoneliness = document.querySelector(".input-loneliness");
 const buttonLoneliness = document.querySelector(".button-loneliness");
