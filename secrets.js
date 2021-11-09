@@ -9,6 +9,7 @@ const codeBSHMM = "73757065726865726f6573";
 const codeDeinde = "696e746572666163696e67";
 const codeDogact = "73746f7279";
 const codeFeathers = "6361727665";
+const codeMeta = "594f55525455524e544f435245415445";
 
 const inputLoneliness = document.querySelector(".input-loneliness");
 const buttonLoneliness = document.querySelector(".button-loneliness");
@@ -42,6 +43,10 @@ const inputFeathers = document.querySelector(".input-feathers");
 const buttonFeathers = document.querySelector(".button-feathers");
 const correctFeathers = document.querySelector(".correct-feathers");
 const incorrectFeathers = document.querySelector(".incorrect-feathers");
+const inputMeta = document.querySelector(".input-meta");
+const buttonMeta = document.querySelector(".button-meta");
+const correctMeta = document.querySelector(".correct-meta");
+const incorrectMeta = document.querySelector(".incorrect-meta");
 
 buttonLoneliness.addEventListener("click", function (e) {
   e.preventDefault();
@@ -128,6 +133,17 @@ buttonFeathers.addEventListener("click", function (e) {
   } else {
     correctFeathers.style.display = "none";
     incorrectFeathers.style.display = "block";
+  }
+});
+
+buttonMeta.addEventListener("click", function (e) {
+  e.preventDefault();
+  if (inputMeta.value.toLowerCase() == hex_to_ascii(codeMeta)) {
+    incorrectMeta.style.display = "none";
+    correctMeta.style.display = "block";
+  } else {
+    correctMeta.style.display = "none";
+    incorrectMeta.style.display = "block";
   }
 });
 
