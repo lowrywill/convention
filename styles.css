@@ -167,3 +167,11 @@
   padding-left: 20px;
 }
 
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #444444;
+}
